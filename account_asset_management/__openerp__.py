@@ -4,7 +4,7 @@
 #    OpenERP, Open Source Management Solution
 #
 #    Copyright (C) 2010-2012 OpenERP s.a. (<http://openerp.com>).
-#    Copyright (c) 2014 Noviat nv/sa (www.noviat.com). All rights reserved.
+#    Copyright (c) 2014-2015 Noviat nv/sa (www.noviat.com).
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as
@@ -22,39 +22,10 @@
 ##############################################################################
 {
     'name': 'Assets Management',
-    'version': '2.4',
+    'version': '2.5',
     'depends': ['account'],
     'conflicts': ['account_asset'],
     'author': "OpenERP & Noviat,Odoo Community Association (OCA)",
-    'description': """
-Financial asset management.
-===========================
-
-This Module manages the assets owned by a company. It will keep
-track of depreciation's occurred on those assets. And it allows to create
-accounting entries from the depreciation lines.
-
-The full asset life-cycle is managed (from asset creation to asset removal).
-
-Assets can be created manually as well as automatically
-(via the creation of an accounting entry on the asset account).
-
-Excel based reporting is available via the 'account_asset_management_xls'
-module (cf. http://odoo.apps.com).
-
-The module contains a large number of functional enhancements compared to
-the standard account_asset module from OpenERP/Odoo.
-
-The module in NOT compatible with the standard account_asset module.
-
-Contributors
-------------
-- OpenERP SA
-- Luc De Meyer (Noviat)
-- Frédéric Clementi (camptocamp)
-- Florian Dacosta (Akretion)
-- Stéphane Bidoul (Acsone)
-    """,
     'website': 'http://www.noviat.com',
     'category': 'Accounting & Finance',
     'sequence': 32,
@@ -79,4 +50,3 @@ Contributors
     'installable': True,
     'application': True,
 }
-# vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:
