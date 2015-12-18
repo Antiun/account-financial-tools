@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: account-financial-tools (8.0)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-03 22:27+0000\n"
-"PO-Revision-Date: 2015-09-30 11:24+0000\n"
+"POT-Creation-Date: 2015-12-03 09:18+0000\n"
+"PO-Revision-Date: 2015-12-03 05:23+0000\n"
 "Last-Translator: Matjaž Mozetič <m.mozetic@matmoz.si>\n"
 "Language-Team: Slovenian (http://www.transifex.com/oca/OCA-account-financial-tools-8-0/language/sl/)\n"
 "MIME-Version: 1.0\n"
@@ -188,7 +188,7 @@ msgid "An error has occured during the sending of the email."
 msgstr "Med razpošiljanjem e-pošte je prišlo do napake."
 
 #. module: account_credit_control
-#: code:addons/account_credit_control/policy.py:308
+#: code:addons/account_credit_control/policy.py:310
 #, python-format
 msgid "Can not get function for computation mode: %s is not implemented"
 msgstr "Funkcija za izvedbeni način ni dobljena: %s ni implementiran"
@@ -433,6 +433,11 @@ msgstr "Prilagojeno e-poštno sporočilo"
 #: field:credit.control.policy.level,custom_text:0
 msgid "Custom Message"
 msgstr "Prilagojeno sporočilo"
+
+#. module: account_credit_control
+#: field:credit.control.policy.level,custom_text_after_details:0
+msgid "Custom Message after details"
+msgstr "Prilagojeno sporočilo po podrobnostih"
 
 #. module: account_credit_control
 #: view:website:account_credit_control.report_credit_control_summary_document
@@ -1079,7 +1084,7 @@ msgid "The optional other currency if it is a multi-currency entry."
 msgstr "Opcijska druga valuta pri več-valutnih vnosih."
 
 #. module: account_credit_control
-#: code:addons/account_credit_control/policy.py:258
+#: code:addons/account_credit_control/policy.py:260
 #, python-format
 msgid "The smallest level can not be of type Previous Reminder"
 msgstr "Najnižji nivo ne more biti tipa \"prejšnji opomin\""

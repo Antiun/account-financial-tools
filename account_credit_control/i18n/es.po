@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: account-financial-tools (8.0)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-20 18:44+0000\n"
-"PO-Revision-Date: 2015-10-24 23:16+0000\n"
+"POT-Creation-Date: 2015-12-05 01:25+0000\n"
+"PO-Revision-Date: 2015-12-06 18:19+0000\n"
 "Last-Translator: OCA Transbot <transbot@odoo-community.org>\n"
 "Language-Team: Spanish (http://www.transifex.com/oca/OCA-account-financial-tools-8-0/language/es/)\n"
 "MIME-Version: 1.0\n"
@@ -187,7 +187,7 @@ msgid "An error has occured during the sending of the email."
 msgstr ""
 
 #. module: account_credit_control
-#: code:addons/account_credit_control/policy.py:308
+#: code:addons/account_credit_control/policy.py:310
 #, python-format
 msgid "Can not get function for computation mode: %s is not implemented"
 msgstr ""
@@ -434,6 +434,11 @@ msgid "Custom Message"
 msgstr ""
 
 #. module: account_credit_control
+#: field:credit.control.policy.level,custom_text_after_details:0
+msgid "Custom Message after details"
+msgstr ""
+
+#. module: account_credit_control
 #: view:website:account_credit_control.report_credit_control_summary_document
 msgid "Date due"
 msgstr ""
@@ -650,7 +655,7 @@ msgstr ""
 #: view:credit.control.marker:account_credit_control.credit_line_marker_form
 #: view:credit.control.printer:account_credit_control.credit_line_printer_form
 msgid "Lines"
-msgstr ""
+msgstr "Líneas"
 
 #. module: account_credit_control
 #: view:credit.control.line:account_credit_control.credit_control_line_search
@@ -1078,7 +1083,7 @@ msgid "The optional other currency if it is a multi-currency entry."
 msgstr ""
 
 #. module: account_credit_control
-#: code:addons/account_credit_control/policy.py:258
+#: code:addons/account_credit_control/policy.py:260
 #, python-format
 msgid "The smallest level can not be of type Previous Reminder"
 msgstr ""
